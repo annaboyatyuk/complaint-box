@@ -1,0 +1,21 @@
+html,body{
+    height:100%;   
+  }
+  body{
+  text-align:center; 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#151414), color-stop(80%,#887d7d), color-stop(100%,#d4d6d6)); 
+  background: -webkit-linear-gradient(top,  #151414 0%,#887d7d 80%,#d4d6d6 100%); 
+  }
+  
+  font-family: 'Advent Pro', sans-serif;
+  
+  #companylogopicture {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+.myteam{
+width: 10%;
+height: 10%;
+}
