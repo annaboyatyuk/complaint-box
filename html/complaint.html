@@ -4,27 +4,49 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/complaint.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/reset.css" />
         
     <title>Complaint Box</title>
 </head>
 
 <body>
+    <header>
+        <nav>
+            <h1>Complaint Box</h1>
 
-    <nav>
-        <h1>Complaint Box</h1>
+            <ul>
+                <li class="right">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="right">
+                    <a href="about.html">About Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-        <ul>
-            <li><a href="home.html">Home</li>
-            <li><a href="about.html">About Us</li>
-        </ul>
-    </nav>
+    <section class="section">
+        <p>What to do on this page</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit adipisci, earum facilis odio tempore iusto ipsum magnam deleniti debitis? Laborum nihil mollitia odit accusantium illo nulla! Repudiandae veritatis dicta ex?</p>
+    </section>    
 
-    <p>What to do on this page</p>
+    <form id="complaintForm">
+        <fieldset>
+            <legend>Tell me how you really feel</legend>
+            
+            <label for="complaint"></label>
+            <textarea name="complaint" id="complaint" cols="30" rows="10"></textarea>
+            
+            <button type="submit">File a complaint</button>
+            
+        </fieldset>
+    </form>
 
-    <button>Submit</button>
-    <script src=".js"></script>
+    <!-- <button>Submit</button> -->
+
+    <script src="../js/app.js"></script>
     
 </body>
 
-</html>>
+</html>
