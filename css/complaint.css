@@ -1,12 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Concert+One);
 @import url(https://fonts.googleapis.com/css?family=Advent+Pro:300);
-html,body{
-  height:100%;   
+
+html,body {
+  height:100%;
+  background-repeat: no-repeat; 
 }
-body{
-text-align:center; 
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#151414), color-stop(80%,#887d7d), color-stop(100%,#d4d6d6)); 
-background: -webkit-linear-gradient(top,  #151414 0%,#887d7d 80%,#d4d6d6 100%); 
+
+body {
+    text-align:center; 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#151414), color-stop(80%,#887d7d), color-stop(100%,#d4d6d6)); 
+    background: -webkit-linear-gradient(top,  #151414 0%,#887d7d 80%,#d4d6d6 100%); 
 }
 
 
@@ -42,19 +45,12 @@ header ul li a:hover {
     float: right;
 }
 
+section.section {
+    width: 800px;
+    margin-top: 200px;
+    margin: auto;
+}
 
-
-/* 
-header ul li {
-    display: inline-block;
-    margin-top: 40px;
-    /* margin-right: 75px; */
-    /* position: absolute;
-    right: 20px; */
-    /* width: 200px; */
-/* } */
-
-/* a {
-    text-decoration: none;
-    color: #888;
-} */ 
+section p {
+    margin-top: 50px;
+}
