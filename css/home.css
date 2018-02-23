@@ -1,0 +1,11 @@
+.home_button {
+  /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  margin-left: -175px;
+  margin-top: -32px;
+  height: 49px;
+  padding-top: 6px;
+  width: 350px;
+  padding-left: 13px;
+}
