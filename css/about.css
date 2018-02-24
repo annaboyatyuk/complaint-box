@@ -4,6 +4,7 @@
 html,body {
   height:100%;
   background-repeat: no-repeat; 
+  background-attachment: fixed;
 }
 
 body {
@@ -54,7 +55,7 @@ section p {
     margin-top: 50px;
 }
   
-  font-family: 'Advent Pro', sans-serif;
+  
   
   #companylogopicture {
     height: auto; 
@@ -80,14 +81,14 @@ section p {
 
 .picture {
   right: 0px;
-  /* padding: 2px; */
+  padding: 2px;
   padding-bottom: 5px;
   display: inline-block;
 
   list-style: none;
   float: left;
   padding: 0 10px 0 0;
-  /* text-align:left;  */
+  text-align:left; 
 
 
   }
