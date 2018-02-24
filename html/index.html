@@ -7,36 +7,41 @@
     <title>Complaint Box</title>
 </head>
 <body>
-        <header>
-                <nav>
-                    <h1>Complaint Box</h1>
-                    <ul>
-                        <li class="right">
-                            <a href="home.html">Home</a>
-                        </li>
-                        <li class="right">
-                            <a href="about.html">About Us</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
+    <header>
+        <nav>
+            <h1>Complaint Box</h1>
+            <ul>
+                <li class="right">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="right">
+                    <a href="about.html">About Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <section id="section1">
-    <p>Welcome to The Complaint Box. This is the perfect place for you to complain about whatever it is that you feel the need to complain about. As most of you know- when you complain you’re not looking for a solution, you’re just looking for someone to listen and just get it all out.  Well you’re in luck because this is the perfect place for you to complain about anything! 
-    </p>
+        <p>
+            Welcome to The Complaint Box. This is the perfect place for you to complain about whatever it is that you feel 
+            the need to complain about. As most of you know- when you complain you’re not looking for a solution, you’re just 
+            looking for someone to listen and just get it all out.  Well you’re in luck because this is the perfect place for 
+            you to complain about anything! 
+        </p>
     </section>
-
     <section id="section2">
-    <p class="scale"> Please rate your complaint on a scale of 1-10. 1 being its not bothering you too much, but you want to get it off your chest and 10 being nothing in this world has ever bothered you so much!
-    </p>
-<label for="range">
-<input type="range" name="range" id="range" min="0" max="300" step="5" value="1, 2, 3, 4, 5, 6, 7, 8, 9, 10"/>
-</label>
-<output for="range" class="output"></output>
-</section>
-<section>
-        <a href="complaint.html"><button class="btn">File a Complaint</button></a>
-</section>
+        <p class="scale"> 
+            Please rate your complaint on a scale of 1-10. 1 being its not bothering you too much, but 
+            you want to get it off your chest and 10 being nothing in this world has ever bothered you so much!
+        </p>
+    </section>
+    <form id="complaintform">
+        <label for="range">
+            <input type="range" name="range" id="range" min="0" max="300" step="5" value="1, 2, 3, 4, 5, 6, 7, 8, 9, 10"/>
+        </label>
+        <!--<a href="complaint.html">-->
+        <button class="btn" type="submit">File a Complaint</button>
+        <!--</a>-->
+    </form>
 <script src="../js/index.js"></script>
-
 </body>
 </html>
