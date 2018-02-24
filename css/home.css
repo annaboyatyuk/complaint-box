@@ -1,8 +1,19 @@
 div {
   position: absolute;
-  top: 50%;
-  left: 55%;
+  top: 45%;
+  left: 45%;
   transition: background-color 0.5s ease;
+}
+body{
+  background: url("../img/treasure_box.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  color: white;
+  text-align: center;
 }
 .btn {
   background:none;
