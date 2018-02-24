@@ -2,7 +2,9 @@
 @import url(https://fonts.googleapis.com/css?family=Advent+Pro:300);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 html,body{
-  height:100%;   
+  height:100%;
+  background-repeat: no-repeat; 
+  font-family: 'Noto Sans', sans-serif;
 }
 body{
 text-align:center; 
@@ -17,6 +19,84 @@ h1 {
   shadow: 1px 5px 10px -2px rgba(240, 233, 233, 0.986);
   font-family: 'Noto Sans', sans-serif;
 }
+header {
+    height: 80px;
+}
+
+nav {
+    margin: 0px auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header h1 {
+    float: left;
+    margin-top: 15px;
+    margin-right: 30px;
+    font-size: 40px;
+    color:rgba(137, 240, 47, 0.89);
+}
+
+header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background-color: rgba(137, 240, 47, 0.89);
+}
+
+.right {
+    float: right;
+}
+
+section.section {
+    width: 800px;
+    margin-top: 200px;
+    margin: auto;
+}
+
+section p {
+    margin-top: 50px;
+}
+/* ---------------------------------------------------------- */
+.btn {
+    background:none;
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    /* border-radius: 16px;  */
+    border: none;
+    text-shadow: 0px 2px 0px #666666;
+    -webkit-box-shadow: 0px 1px 9px #666666;
+    -moz-box-shadow: 0px 1px 9px #666666;
+    box-shadow: 0px 14px 9px #666666;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 43%;
+  }
+  
+  .btn:hover {
+    background: rgba(137, 240, 47, 0.40);
+    text-decoration: none;
+    transition: background-color 4s ease;
+  }
+.numberPosition {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* ----------------------------------green scale------------------------------- */
 label[for=range] {
 position: absolute;
 top: 50%;
@@ -31,6 +111,7 @@ padding-left: 13px;
 overflow: hidden;
 padding-bottom: 10px;
 }
+
 label[for=range]:after {
 content: "";
 position: absolute;
@@ -116,7 +197,7 @@ line-height: 19px;
 font-size: 17px;
 }
 input[type="range"]::-webkit-slider-runnable-track:before {
-/* content: "1-10"; */
+content: "";
 position: absolute;
 height: 38px;
 width: 283px;
@@ -205,7 +286,6 @@ text-align: center;
 width: 100%;
 font-size: 16px;
 font-family: 'Noto Sans', sans-serif;
-/* color: white; */
 }
 .output {
 position: absolute;
@@ -217,88 +297,5 @@ width: 100%;
 font-size: 1em;
 font-family: 'Advent Pro', sans-serif;
 color: rgba(132, 206, 66, 1);
-}
-/* ---------------------------------------------------------- */
-.btn {
-    background:none;
-    -webkit-border-radius: 16;
-    -moz-border-radius: 16;
-    border-radius: 16px;
-    text-shadow: 0px 2px 0px #666666;
-    -webkit-box-shadow: 0px 1px 9px #666666;
-    -moz-box-shadow: 0px 1px 9px #666666;
-    box-shadow: 0px 1px 9px #666666;
-    font-family: 'Advent Pro', sans-serif;
-    letter-spacing: 3px;
-    color: white;
-    font-size: 20px;
-    padding: 8px 20px 10px 20px;
-    text-decoration: none;
-    cursor: pointer;
-    position: absolute;
-    top: 60%;
-    left: 43%;
-  }
-  
-  .btn:hover {
-    background: rgba(137, 240, 47, 0.89);
-    text-decoration: none;
-    transition: background-color 9s ease;
-  }
-/* ---------------------------------------------------------- */
-html,body {
-  height:100%;
-  background-repeat: no-repeat; 
-  font-family: 'Noto Sans', sans-serif;
-}
-
-body {
-    text-align:center; 
-    font-family: 'Noto Sans', sans-serif;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#151414), color-stop(80%,#887d7d), color-stop(100%,#d4d6d6)); 
-    background: -webkit-linear-gradient(top,  #151414 0%,#887d7d 80%,#d4d6d6 100%); 
-}
-
-
-header {
-    height: 80px;
-}
-
-nav {
-    margin: 0px auto;
-    font-family: 'Noto Sans', sans-serif;
-}
-
-header h1 {
-    float: left;
-    margin-top: 15px;
-    margin-right: 30px;
-    font-size: 40px;
-    color:rgba(137, 240, 47, 0.89);
-}
-
-header ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-header ul li a:hover {
-    background-color: rgba(137, 240, 47, 0.89);
-}
-
-.right {
-    float: right;
-}
-
-section.section {
-    width: 800px;
-    margin-top: 200px;
-    margin: auto;
-}
-
-section p {
-    margin-top: 50px;
-}
+} */
+/* ----------------------------------old green scale-------------------------------
