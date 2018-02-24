@@ -20,8 +20,8 @@ h1 {
 .btn {
   background:none;
   -webkit-border-radius: 16;
+  border: none;
   -moz-border-radius: 16;
-  border-radius: 16px;
   text-shadow: 0px 2px 0px #666666;
   -webkit-box-shadow: 0px 1px 9px #666666;
   -moz-box-shadow: 0px 1px 9px #666666;
@@ -34,11 +34,12 @@ h1 {
   text-decoration: none;
   cursor: pointer;
 }
+
 /* --------------------------------------------------------------- */
 .btn:hover {
-  background: rgba(137, 240, 47, 0.658);
+  background: rgba(137, 240, 47, 0.60);
   text-decoration: none;
-  transition: background-color 9s ease;
+  transition: background-color 4s ease;
 }
 
 div {
