@@ -1,17 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Concert+One);
 @import url(https://fonts.googleapis.com/css?family=Advent+Pro:300);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 html,body{
   height:100%;   
 }
 body{
 text-align:center; 
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#151414), color-stop(80%,#887d7d), color-stop(100%,#d4d6d6)); 
-background: -webkit-linear-gradient(top, #151414 0%,#887d7d 80%,#d4d6d6 100%); 
+background: -webkit-linear-gradient(top, #151414 0%,#887d7d 80%,#d4d6d6 100%);
+font-family: 'Noto Sans', sans-serif; 
 }
 h1 {
   font-size: 40px;
   color:rgba(137, 240, 47, 0.89);
   shadow: 1px 5px 10px -2px rgba(240, 233, 233, 0.986),
+  font-family: 'Noto Sans', sans-serif;
 }
 label[for=range] {
 position: absolute;
@@ -86,7 +89,7 @@ transform-origin: 0 0px 0;
 transform: rotateX(90deg) translateY(-140px) translateZ(-18px);
 }
 input[type="range"]::-webkit-slider-thumb:before {
-/* content: "< >"; */
+content: "< >";
 font-family: 'Concert One', cursive;
 position: absolute;
 background: #eaebe5;
@@ -128,7 +131,7 @@ bottom: 0;
 left: 0;
 }
 input[type="range"]::-webkit-slider-runnable-track:after {
-/* content: "1-10"; */
+content: "";
 position: absolute;
 height: 10px;
 width: 270px;
@@ -138,7 +141,7 @@ right: 26px;
 transform: skew(62deg);
 }
 input[type=range]:before {
-/* content: "1-10"; */
+content: "";
 position: absolute;
 background: rgb(190, 190, 190);
 box-shadow:0 1px 0 rgb(235, 235, 235);
@@ -149,7 +152,7 @@ top: 29px;
 z-index: 1;
 }
 input[type=range]:after {
-/* content: "1-10"; */
+content: "";
 position: absolute;
 background: rgb(190, 190, 190);
 width: 7px;
@@ -182,7 +185,7 @@ box-shadow:30px 0 0 rgb(190, 190, 190),
     text-align: center;
     width: 100%;
     font-size: 16px;
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     color: white;
 }
 .scale {
@@ -191,7 +194,7 @@ top: 65%;
 text-align: center;
 width: 100%;
 font-size: 16px;
-font-family: 'Advent Pro', sans-serif;
+font-family: 'Noto Sans', sans-serif;
 color: white;
 }
 title {
@@ -200,7 +203,7 @@ top: 65%;
 text-align: center;
 width: 100%;
 font-size: 16px;
-font-family: 'Advent Pro', sans-serif;
+font-family: 'Noto Sans', sans-serif;
 /* color: white; */
 }
 .output {
@@ -216,36 +219,41 @@ color: rgba(132, 206, 66, 1);
 }
 /* ---------------------------------------------------------- */
 .btn {
-  background:none;
-  -webkit-border-radius: 16;
-  -moz-border-radius: 16;
-  border-radius: 16px;
-  text-shadow: 0px 2px 0px #666666;
-  -webkit-box-shadow: 0px 1px 9px #666666;
-  -moz-box-shadow: 0px 1px 9px #666666;
-  box-shadow: 0px 1px 9px #666666;
-  font-family: Arial;
-  color: white;
-  font-size: 20px;
-  padding: 8px 20px 10px 20px;
-  text-decoration: none;
-}
-
-div {
-  position: absolute;
-  top: 60%;
-  left: 43%;
-  transition: background-color 0.5s ease;
-}
-
+    background:none;
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    text-shadow: 0px 2px 0px #666666;
+    -webkit-box-shadow: 0px 1px 9px #666666;
+    -moz-box-shadow: 0px 1px 9px #666666;
+    box-shadow: 0px 1px 9px #666666;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 43%;
+  }
+  
+  .btn:hover {
+    background: rgba(137, 240, 47, 0.89);
+    text-decoration: none;
+    transition: background-color 9s ease;
+  }
 /* ---------------------------------------------------------- */
 html,body {
   height:100%;
   background-repeat: no-repeat; 
+  font-family: 'Noto Sans', sans-serif;
 }
 
 body {
     text-align:center; 
+    font-family: 'Noto Sans', sans-serif;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#151414), color-stop(80%,#887d7d), color-stop(100%,#d4d6d6)); 
     background: -webkit-linear-gradient(top,  #151414 0%,#887d7d 80%,#d4d6d6 100%); 
 }
@@ -257,6 +265,7 @@ header {
 
 nav {
     margin: 0px auto;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 header h1 {

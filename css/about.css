@@ -70,3 +70,41 @@ section p {
   height: 10px;
   width: 20px;
 }
+/* ----------------------images--------------------------- */
+.myteam {
+  float: right;
+  margin-left: -60px;
+  display: inline-block;
+  
+}
+
+.picture {
+  right: 0px;
+  /* padding: 2px; */
+  padding-bottom: 5px;
+  display: inline-block;
+
+  list-style: none;
+  float: left;
+  padding: 0 10px 0 0;
+  /* text-align:left;  */
+
+
+  }
+
+  main ul li {
+    list-style: none;
+    float: left;
+    margin: 10px 10px 10px 0px;
+    width: 100px
+}
+
+main ul li:last-child {
+    margin-right: 0px;
+    width: 100px
+}
+main ul li:last-child {
+  margin-right: 0px;
+    width: 100px
+}
+
