@@ -10,6 +10,7 @@ body {
     text-align:center; 
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#151414), color-stop(80%,#887d7d), color-stop(100%,#d4d6d6)); 
     background: -webkit-linear-gradient(top,  #151414 0%,#887d7d 80%,#d4d6d6 100%); 
+    background-attachment: fixed;
 }
 
 
@@ -52,5 +53,5 @@ section.section {
 }
 
 section p {
-    margin-top: 50px;
+    margin-top: 700px;
 }
