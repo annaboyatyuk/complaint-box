@@ -46,14 +46,6 @@ header ul li a:hover {
     float: right;
 }
 
-section.section {
-    width: 800px;
-    margin-top: 200px;
-    margin: auto;
-}
 
-section p:first-child {
-    margin-top: 20%;
-}
 
 
