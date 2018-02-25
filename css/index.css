@@ -44,21 +44,33 @@ header ul li a {
 }
 
 header ul li a:hover {
-    background-color: rgba(137, 240, 47, 0.89);
+    color: rgba(137, 240, 47, 0.89);
 }
 
 .right {
     float: right;
 }
-
-section.section {
-    width: 800px;
-    margin-top: 200px;
-    margin: auto;
-}
-
 section p {
-    margin-top: 50px;
+    position: absolute;
+    top: -60px;
+    left: 20%;
+    right: 20%;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+#section2 {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    right: 40%;
+    font-size: 12px;
+}
+#section3 {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    right: 40%;
+    font-size: 12px;
 }
 /* ---------------------------------------------------------- */
 .btn {
@@ -79,7 +91,7 @@ section p {
     text-decoration: none;
     cursor: pointer;
     position: absolute;
-    top: 65%;
+    top: 75%;
     left: 43%;
   }
   
@@ -92,7 +104,7 @@ section p {
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
 }
 /* ----------------------------------green scale------------------------------- */

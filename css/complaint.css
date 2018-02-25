@@ -28,6 +28,7 @@ header h1 {
     margin-right: 30px;
     font-size: 40px;
     color:rgba(137, 240, 47, 0.89);
+    
 }
 
 header ul li a {
@@ -39,7 +40,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    background-color: rgba(137, 240, 47, 0.89);
+    color: rgba(137, 240, 47, 0.89);
 }
 
 .right {
@@ -55,5 +56,32 @@ section.section {
 section p:first-child {
     margin-top: 20%;
 }
-
+/* ----------------------button---------------------- */
+.btn {
+    background:none;
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    /* border-radius: 16px;  */
+    border: none;
+    text-shadow: 0px 2px 0px #666666;
+    -webkit-box-shadow: 0px 1px 9px #666666;
+    -moz-box-shadow: 0px 1px 9px #666666;
+    box-shadow: 0px 14px 9px #666666;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 41.5%;
+  }
+  
+  .btn:hover {
+    background: rgba(137, 240, 47, 0.40);
+    text-decoration: none;
+    transition: background-color 4s ease;
+  }
 

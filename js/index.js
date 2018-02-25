@@ -10,6 +10,15 @@ slider.oninput = function() {
   output.innerHTML = this.value;
 };
 
+/*
+'key1': '[1, 4, 6, 7]'
+var ratings = localStorage.getItem('key1');
+  //ratings  = '[1, 4, 6, 7]'
+  ratings = JSON.parse(ratings);
+  //ratings = [1, 4, 6, 7]
+  ratings.push(event.target.range.value);
+
+*/
 
 
 //richards work
