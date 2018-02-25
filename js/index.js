@@ -12,29 +12,28 @@ slider.oninput = function() {
 
 
 
-
-
-
-function oneToFour() {
-  var returnOne = 'Wow, that sounds tough.';
+//richards work
+function submitComplaint(event){
+  event.preventDefault();
+  var ratings;
+  if(localStorage.getItem('ratingList')){
+    ratings = localStorage.getItem('ratingList');
+    ratings = JSON.parse(ratings);
+  }
+  else{
+    ratings = [];
+  }
+  ratings.push(event.target.range.value);
+  ratings = JSON.stringify(ratings);
+  localStorage.setItem('ratingList',ratings);
+  console.log('store data');
+  console.log(localStorage.getItem('ratingList'));
+  window.location = 'complaint.html';
 }
 
-function fiveToSeven() {
-  var returnFive = 'How awful!';
-}
-
-function eightToTen() {
-  var returnEight = 'Ok seriously, this is not ok.';
-}
-
-
-
-var scaleResponse = document.getElementById('scaleResponse');
-
-function createResponse(event) {
-  var scaleValue = event.target.range.value;
-
+window.onload = function(){
+  console.log('check if it loads');
+ var complaintForm = document.getElementById('complaintform');
+  complaintForm.addEventListener('submit',submitComplaint); 
 
 }
-
-scaleResponse.addEventListener('submit', (createResponse));
