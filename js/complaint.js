@@ -1,7 +1,7 @@
 'use strict';
 
 /*Key Words:
-1.  Work
+1.  Work, boss, manager, job
 2.  traffic
 3.  sick, feel good, 
 4.  annoy
@@ -47,4 +47,5 @@ window.onload = function(){
     var complaintTextForm = document.getElementById('complaintForm');
     complaintTextForm.addEventListener('submit', inputComplaintDetails);
 }
+
 

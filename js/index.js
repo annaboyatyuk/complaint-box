@@ -9,6 +9,7 @@ output.innerHTML = slider.value;
 slider.oninput = function() {
   output.innerHTML = this.value;
 };
+
 /*
 'key1': '[1, 4, 6, 7]'
 var ratings = localStorage.getItem('key1');
@@ -19,7 +20,6 @@ var ratings = localStorage.getItem('key1');
 
 */
 
-//richards work
 function submitComplaint(event){
   event.preventDefault();
   var complaintScore = event.target.range.value;
@@ -42,7 +42,8 @@ function submitComplaint(event){
 
 window.onload = function(){
   console.log('check if it loads');
- var complaintForm = document.getElementById('complaintform');
-  complaintForm.addEventListener('submit',submitComplaint); 
 
-}
+  var complaintForm = document.getElementById('complaintform');
+  complaintForm.addEventListener('submit',submitComplaint);
+};
+
