@@ -4,11 +4,12 @@
 
 var slider = document.getElementById('range');
 var output = document.getElementById('number');
-output.innerHTML = slider.value; 
+output.innerHTML = slider.value;
 
 slider.oninput = function() {
   output.innerHTML = this.value;
 };
+
 /*
 'key1': '[1, 4, 6, 7]'
 var ratings = localStorage.getItem('key1');
@@ -18,6 +19,7 @@ var ratings = localStorage.getItem('key1');
   ratings.push(event.target.range.value);
 
 */
+
 
 //richards work
 function submitComplaint(event){
