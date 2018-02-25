@@ -22,19 +22,21 @@ var ratings = localStorage.getItem('key1');
 //richards work
 function submitComplaint(event){
   event.preventDefault();
-  var ratings;
-  if(localStorage.getItem('ratingList')){
-    ratings = localStorage.getItem('ratingList');
+  var complaintScore = event.target.range.value;
+  /*
+  if(localStorage.getItem('newcomplaintscore')){
+    ratings = localStorage.getItem('newcomplaintscore');
     ratings = JSON.parse(ratings);
   }
   else{
     ratings = [];
   }
   ratings.push(event.target.range.value);
-  ratings = JSON.stringify(ratings);
-  localStorage.setItem('ratingList',ratings);
+  */
+  complaintScore = JSON.stringify(complaintScore);
+  localStorage.setItem('newcomplaintscore',complaintScore);
   console.log('store data');
-  console.log(localStorage.getItem('ratingList'));
+  console.log(localStorage.getItem('newcomplaintscore'));
   window.location = 'complaint.html';
 }
 
