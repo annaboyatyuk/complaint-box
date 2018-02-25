@@ -39,7 +39,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    background-color: rgba(137, 240, 47, 0.89);
+    color: rgba(137, 240, 47, 0.89);
 }
 
 .right {
