@@ -20,7 +20,6 @@ var ratings = localStorage.getItem('key1');
 
 */
 
-//richards work
 function submitComplaint(event){
   event.preventDefault();
   var ratings;
