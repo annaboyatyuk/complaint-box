@@ -19,7 +19,6 @@ var ratings = localStorage.getItem('key1');
 
 */
 
-//richards work
 function submitComplaint(event){
   event.preventDefault();
   var ratings;
@@ -40,7 +39,6 @@ function submitComplaint(event){
 
 window.onload = function(){
   console.log('check if it loads');
- var complaintForm = document.getElementById('complaintform');
-  complaintForm.addEventListener('submit',submitComplaint); 
-
-}
+  var complaintForm = document.getElementById('complaintform');
+  complaintForm.addEventListener('submit',submitComplaint);
+};
