@@ -57,34 +57,36 @@ function renderComplaintImage(){
   }
   //image path variable should now have the full path name.
   console.log(imgPathName);
+
+  // var objImg = localStorage.getItem('complaintReason');
+  // complaintReason = JSON.parse(imgPathName);
+  // console.log(complaintReason);
+
+  function showPic() {
+    var responseImage = document.getElementById('responseImage');
+    for(var i = 0; i < allpictures.length; i++) {
+      var callPic = document.createElement('img');
+      imgPathName.src = allpictures.filepath[i];
+      responseImage.appendChild(callPic);
+    }
+  }
+  showPic();
+
 }
 renderComplaintImage();
 
-function show() {
-  var responseImage = document.getElementById('responseImage');
-  if(allpictures.filepath === renderComplaintImage.imgPathName) {
-    var pic = document.createElement('p');
-    pic.textContent = allpictures.filepath;
-    responseImage.appendChild(pic);
-  }
-}
 
-show();
+
+
 
 // var responseImage = document.getElementById('responseImage');
-
-// function showImage() {
-//   if(renderComplaintImage.imgPathName === allpictures.filepath) {
+// for(var i = 0; i < allpictures.length; i++) {
+//   if(allpictures.filepath === objImg) {
 //     var pic = document.createElement('p');
 //     pic.textContent = allpictures.filepath;
 //     responseImage.appendChild(pic);
-//     console.log(renderComplaintImage.imgPathName);
+//   }
 // }
-// showImage();
-
-
-
-
 
 
 
