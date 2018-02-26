@@ -39,7 +39,7 @@ function renderComplaintImage(){
   var complaintData = localStorage.getItem('complaintlist');
   complaintData = JSON.parse(complaintData);
   console.log(complaintData);
-  var imgPathName = 'img/';
+  var imgPathName = '../keywordImg/';
   //get the index number to access the last complaint object in the list
   var lastIndex = complaintData.length-1;
   imgPathName += complaintData[lastIndex].complaintReason;//grabs the the last on the list
@@ -60,8 +60,27 @@ function renderComplaintImage(){
 }
 renderComplaintImage();
 
+function show() {
+  var responseImage = document.getElementById('responseImage');
+  if(allpictures.filepath === renderComplaintImage.imgPathName) {
+    var pic = document.createElement('p');
+    pic.textContent = allpictures.filepath;
+    responseImage.appendChild(pic);
+  }
+}
 
+show();
 
+// var responseImage = document.getElementById('responseImage');
+
+// function showImage() {
+//   if(renderComplaintImage.imgPathName === allpictures.filepath) {
+//     var pic = document.createElement('p');
+//     pic.textContent = allpictures.filepath;
+//     responseImage.appendChild(pic);
+//     console.log(renderComplaintImage.imgPathName);
+// }
+// showImage();
 
 
 
@@ -94,3 +113,4 @@ renderComplaintImage();
 //   console.log(imgPathName);
 // }
 // renderComplaintImage();
+// 
