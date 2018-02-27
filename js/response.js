@@ -58,25 +58,53 @@ function renderComplaintImage(){
   //image path variable should now have the full path name.
   console.log(imgPathName);
 
-  // var objImg = localStorage.getItem('complaintReason');
-  // complaintReason = JSON.parse(imgPathName);
-  // console.log(complaintReason);
 
-  function showPic() {
-    var responseImage = document.getElementById('responseImage');
-    for(var i = 0; i < allpictures.length; i++) {
-      var callPic = document.createElement('img');
-      imgPathName.src = allpictures.filepath[i];
-      responseImage.appendChild(callPic);
+
+
+  var responseImage = document.getElementById('responseImage');
+  var imgFile = document.createElement('img');
+  
+  for(var i = 0; i < allpictures.length; i++) {
+    if(imgPathName === allpictures[i].filepath) {
+      imgFile.src = allpictures[i].filepath;
+      responseImage.appendChild(imgFile);
+      console.log('coolbeans');
     }
   }
-  showPic();
+
 
 }
 renderComplaintImage();
 
 
 
+
+
+
+// var responseImage = document.getElementById('responseImage');
+// for(var i = 0; i < allpictures.length; i++) {
+//   var callPic = document.createElement('img');
+//   imgPathName.src = allpictures[i].filepath;
+//   responseImage.appendChild(callPic);
+// }
+
+// function showPic() {
+//   var responseImage = document.getElementById('responseImage');
+//   for(var i = 0; i < allpictures.length; i++) {
+//     var callPic = document.createElement('img');
+//     imgPathName.src = allpictures[i].filepath;
+//     responseImage.appendChild(callPic);
+//   }
+// }
+// showPic();
+
+
+
+
+
+// var objImg = localStorage.getItem('complaintReason');
+// complaintReason = JSON.parse(imgPathName);
+// console.log(complaintReason);
 
 
 // var responseImage = document.getElementById('responseImage');
