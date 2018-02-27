@@ -10,8 +10,8 @@
 var complaintReason = ['annoy', 'sick', 'traffic', 'weather', 'work'];
 function inputComplaintDetails(event){
 
-    event.preventDefault();
-var complaintDetails = event.target.complaint.value.toLowerCase();//text box
+  event.preventDefault();
+  var complaintDetails = event.target.complaint.value.toLowerCase();//text box
 
   var reason;
   for(var i = 0; i < complaintReason.length; i++){
