@@ -58,89 +58,16 @@ function renderComplaintImage(){
   //image path variable should now have the full path name.
   console.log(imgPathName);
 
-
-
-
   var responseImage = document.getElementById('responseImage');
   var imgFile = document.createElement('img');
-  
+
   for(var i = 0; i < allpictures.length; i++) {
     if(imgPathName === allpictures[i].filepath) {
       imgFile.src = allpictures[i].filepath;
       responseImage.appendChild(imgFile);
-      console.log('coolbeans');
     }
   }
-
 
 }
 renderComplaintImage();
 
-
-
-
-
-
-// var responseImage = document.getElementById('responseImage');
-// for(var i = 0; i < allpictures.length; i++) {
-//   var callPic = document.createElement('img');
-//   imgPathName.src = allpictures[i].filepath;
-//   responseImage.appendChild(callPic);
-// }
-
-// function showPic() {
-//   var responseImage = document.getElementById('responseImage');
-//   for(var i = 0; i < allpictures.length; i++) {
-//     var callPic = document.createElement('img');
-//     imgPathName.src = allpictures[i].filepath;
-//     responseImage.appendChild(callPic);
-//   }
-// }
-// showPic();
-
-
-
-
-
-// var objImg = localStorage.getItem('complaintReason');
-// complaintReason = JSON.parse(imgPathName);
-// console.log(complaintReason);
-
-
-// var responseImage = document.getElementById('responseImage');
-// for(var i = 0; i < allpictures.length; i++) {
-//   if(allpictures.filepath === objImg) {
-//     var pic = document.createElement('p');
-//     pic.textContent = allpictures.filepath;
-//     responseImage.appendChild(pic);
-//   }
-// }
-
-
-
-// //Render the complaint image by the score and the reason
-// function renderComplaintImage(){
-//   var complaintData = localStorage.getItem('complaintlist');
-//   complaintData = JSON.parse(complaintData);
-//   console.log(complaintData);
-//   var imgPathName = 'img/';
-//   //get the index number to access the last complaint object in the list
-//   var lastIndex = complaintData.length-1;
-//   imgPathName += complaintData[lastIndex].complaintReason;//grabs the the last on the list
-//   //image path name should now include complaint reason (ex: img/work)
-//   console.log(imgPathName);
-//   var score = complaintData[lastIndex].complaintScore;
-//   if(score < 5){
-//     imgPathName += 'Quote.jpg';
-//   }
-//   else if(score >=5 && score <=7){
-//     imgPathName+='Meme.jpg';
-//   }
-//   else{
-//     imgPathName+='Animation.gif';
-//   }
-//   //image path variable should now have the full path name.
-//   console.log(imgPathName);
-// }
-// renderComplaintImage();
-// 
