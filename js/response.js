@@ -26,7 +26,7 @@ function renderComplaintImage(){
   //image path variable should now have the full path name.
   console.log(imgPathName);
 
-  var imageEl = document.getElementById('complaintimate');
+  var imageEl = document.getElementById('complaintimage');
   imageEl.src = imgPathName;
 
 }
