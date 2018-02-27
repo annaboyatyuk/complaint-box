@@ -5,7 +5,7 @@ function renderComplaintImage(){
   var complaintData = localStorage.getItem('complaintlist');
   complaintData = JSON.parse(complaintData);
   console.log(complaintData); 
-  var imgPathName = 'img/';
+  var imgPathName = '/keywordimg/';
   //get the index number to access the last complaint object in the list
   var lastIndex = complaintData.length-1;
   imgPathName += complaintData[lastIndex].complaintReason;//grabs the the last on the list
@@ -23,5 +23,9 @@ function renderComplaintImage(){
 }
 //image path variable should now have the full path name.
 console.log(imgPathName);
+var imageEl = document.getElementById('complaintimage');
+imageEl.src = imgPathName;
+
 }
 renderComplaintImage();
+
