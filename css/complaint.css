@@ -28,6 +28,7 @@ header h1 {
     margin-right: 30px;
     font-size: 40px;
     color:rgba(137, 240, 47, 0.89);
+    font-family: 'Noto Sans', sans-serif;
     
 }
 
@@ -45,6 +46,7 @@ header ul li a:hover {
 
 .right {
     float: right;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 section.section {
