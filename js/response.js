@@ -26,9 +26,22 @@ function renderComplaintImage(){
   //image path variable should now have the full path name.
   console.log(imgPathName);
 
-  var imageEl = document.getElementById('complaintimate');
+  var imageEl = document.getElementById('complaintimage');
   imageEl.src = imgPathName;
 
 }
 renderComplaintImage();
 
+
+
+
+
+
+var responseArr = ['I\'m sorry', 'Wow, that sounds tough.', 'What a challenge', 'Don\'t let it ruin your day.', 'Lets hope for the best', 'Tomorrow is a new day!', 'Wow! I can\'t believe it!', 'Ok seriously, this is not ok.', 'That sounds awful.'];
+
+var responseText = document.getElementById('responseText');
+var showText = document.createElement('p');
+var randomIndex = responseArr[Math.floor(Math.random() * responseArr.length)];
+showText.textContent = randomIndex;
+responseText.appendChild(showText);
+console.log(showText);
