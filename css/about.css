@@ -44,3 +44,7 @@ header ul li a:hover {
 .right {
     float: right;
 }
+
+img {
+    border-radius: 50%;
+}
