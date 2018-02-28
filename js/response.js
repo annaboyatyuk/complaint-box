@@ -1,7 +1,7 @@
 'use strict';
 
 
-
+  
 //Render the complaint image by the score and the reason
 function renderComplaintImage(){
   var complaintData = localStorage.getItem('complaintlist');
@@ -25,10 +25,8 @@ function renderComplaintImage(){
   }
   //image path variable should now have the full path name.
   console.log(imgPathName);
-
   var imageEl = document.getElementById('complaintimage');
   imageEl.src = imgPathName;
 
 }
 renderComplaintImage();
-
