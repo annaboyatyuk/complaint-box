@@ -41,3 +41,5 @@ var randomIndex = responseArr[Math.floor(Math.random() * responseArr.length)];
 showText.textContent = randomIndex;
 responseText.appendChild(showText);
 console.log(showText);
+
+//asdfjf[oejfmacjoi]
