@@ -32,7 +32,7 @@ header h1 {
     /* margin-top: 15px;
     margin-right: 30px;
     margin-left: 30px; */
-    margin: 15px 20px 30px;
+    margin: 20px 40px 30px;
     font-size: 40px;
     color:rgba(137, 240, 47, 0.89);
     /* font-family: 'Quicksand', sans-serif;     */
@@ -89,8 +89,6 @@ section p {
     background:none;
     -webkit-border-radius: 16;
     -moz-border-radius: 16;
-    /* border-radius: 16px;  */
-    border: none;
     text-shadow: 0px 2px 0px #666666;
     -webkit-box-shadow: 0px 1px 9px #666666;
     -moz-box-shadow: 0px 1px 9px #666666;
