@@ -55,8 +55,11 @@ body div {
     margin-top: 100px;
 }
 
-body div image {
-    height: 30%;
+body div img {
+    height: 500px;
 }
 
+body div p {
+    font-size: 50px;
+}
 

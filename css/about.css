@@ -45,3 +45,7 @@ header ul li a:hover {
     float: right;
     font-family: 'Noto Sans', sans-serif;
 }
+
+img {
+    border-radius: 50%;
+}
