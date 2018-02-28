@@ -1,7 +1,15 @@
 'use strict';
 
-
-
+var responseQuotes = [
+  'I\'m sorry', 
+  'Wow, that sounds tough.', 
+  'What a challenge', 
+  'Don\'t let it ruin your day.', 
+  'Lets hope for the best', 'Tomorrow is a new day!', 
+  'Wow! I can\'t believe it!', 
+  'Ok seriously, this is not ok.',
+  'That sounds awful.'];
+  
 //Render the complaint image by the score and the reason
 function renderComplaintImage(){
   var complaintData = localStorage.getItem('complaintlist');
@@ -25,10 +33,24 @@ function renderComplaintImage(){
   }
   //image path variable should now have the full path name.
   console.log(imgPathName);
-
+  //adding quotes below response.html
   var imageEl = document.getElementById('complaintimage');
   imageEl.src = imgPathName;
-
 }
+ 
+
+
 renderComplaintImage();
 
+
+
+
+
+
+/*
+- If opportunity doesn't knock, build a door.
+- A #2 pencil and a dream can take you anywhere. 
+- Luck is a dividend of sweat.  The more you sweat, the luckier you get. 
+- Eighty percent of success is showing up! 
+- 
+*/
