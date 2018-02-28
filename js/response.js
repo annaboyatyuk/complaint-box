@@ -9,7 +9,7 @@ var responseQuotes = [
   'Wow! I can\'t believe it!', 
   'Ok seriously, this is not ok.',
   'That sounds awful.'];
-  
+  //hey
 //Render the complaint image by the score and the reason
 function renderComplaintImage(){
   var complaintData = localStorage.getItem('complaintlist');
