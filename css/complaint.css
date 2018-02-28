@@ -62,6 +62,9 @@ body form {
 
 /* ----------------------button---------------------- */
 .btn {
+    /* width: 100%; */
+    margin: auto;
+    /* margin-top: 0; */
     background:none;
     -webkit-border-radius: 16;
     -moz-border-radius: 16;
@@ -78,10 +81,11 @@ body form {
     text-decoration: none;
     cursor: pointer;
     position: absolute;
-    top: 60%;
-    left: 41.5%;
-    border-radius: 12px;
-    border: 1px solid white;
+
+    top: 120%;
+    left: 35%;
+    
+
   }
   
   .btn:hover {
@@ -104,12 +108,18 @@ body form {
 
   .wrapper{
     width:600px;
-    margin:5% auto;
+    margin: 5% auto;
+
   }
   fieldset{
+    position: absolute;
+    margin: auto;
+    margin-top: 0;
     padding:10px;
     background:rgba(137, 240, 47, 0.699);
+    width: 50%;
   }
+
   .form_grp{
     margin-bottom:20px;
     margin-top: 20px;
