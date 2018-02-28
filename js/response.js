@@ -45,13 +45,11 @@ renderComplaintImage();
 
 
 
+var responseText = document.getElementById('responseText');
+var showText = document.createElement('p');
+var randomIndex = responseArr[Math.floor(Math.random() * responseArr.length)];
+showText.textContent = randomIndex;
+responseText.appendChild(showText);
+console.log(showText);
 
 
-
-/*
-- If opportunity doesn't knock, build a door.
-- A #2 pencil and a dream can take you anywhere. 
-- Luck is a dividend of sweat.  The more you sweat, the luckier you get. 
-- Eighty percent of success is showing up! 
-- 
-*/
