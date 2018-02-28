@@ -50,13 +50,15 @@ header ul li a:hover {
 }
 
 body div {
-    width: 960px;
-    margin: auto;
-    margin-top: 100px;
+    /* width: 70%; */
+    /* margin: auto; */
+    margin-top: 10px;
 }
 
 body div img {
-    height: 500px;
+    width: 60%;
+    margin: auto;
+    margin-top: 0;
 }
 
 body div p {
