@@ -36,6 +36,7 @@ function renderComplaintImage(){
   //adding quotes below response.html
   var imageEl = document.getElementById('complaintimage');
   imageEl.src = imgPathName;
+
 }
  
 

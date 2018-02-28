@@ -24,27 +24,23 @@
             </ul>
         </nav>
     </header>
-
-    <section class="section">
-        <p>This is your chance to complain. Let it all out. I'm here to listen.</p>
-    </section>    
-
-    <form id="complaintForm">
-        <fieldset>
-            <legend>Tell me how you really feel</legend>
-            <label for="complaint"></label>
-
-            <textarea name="complaint" field="required" id="complaint" cols="30" rows="10"></textarea>    
-
-        </fieldset>
-        <button class="btn" type="submit">File a complaint</button>
-    </form>
-
-
-
-
+    <div class="wrapper">
+            <div class="commentBoxfloat">
+              <form id="complaintForm">
+                <fieldset>
+                  <div class="form_grp">
+                    <label for="complaint">This is your chance to complain. Let it all out. I'm here to listen.</label>
+                    <textarea name="complaint" required id="complaint" placeholder="Write your comment here, tell me how you really feel."></textarea>        
+                  </div>
+                  <div class="form_grp">
+                  <button class="btn" type="submit" id="complaint">File a Complaint</button>
+                  </div>
+                </fieldset>
+              </form>  
+            </div>
+          <div id="cmntContr"></div>
+         </div>
     <script src="../js/complaint.js"></script>
     
-</body>
-
+    </body> 
 </html>
