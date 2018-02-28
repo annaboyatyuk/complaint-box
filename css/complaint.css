@@ -81,15 +81,17 @@ body form {
     text-decoration: none;
     cursor: pointer;
     position: absolute;
+
     top: 120%;
     left: 35%;
     
+
   }
   
   .btn:hover {
     background: rgba(137, 240, 47, 0.40);
     text-decoration: none;
-    transition: background-color 4s ease;
+    transition: background-color 2s ease;
   }
 
 /* ------------------------comment box-------------------------------------- */
@@ -107,6 +109,7 @@ body form {
   .wrapper{
     width:600px;
     margin: 5% auto;
+
   }
   fieldset{
     position: absolute;
