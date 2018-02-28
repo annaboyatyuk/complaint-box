@@ -80,12 +80,14 @@ body form {
     position: absolute;
     top: 60%;
     left: 41.5%;
+    border-radius: 12px;
+    border: 1px solid white;
   }
   
   .btn:hover {
     background: rgba(137, 240, 47, 0.40);
     text-decoration: none;
-    transition: background-color 4s ease;
+    transition: background-color 2s ease;
   }
 
 /* ------------------------comment box-------------------------------------- */
@@ -102,7 +104,7 @@ body form {
 
   .wrapper{
     width:600px;
-    margin:10px auto;
+    margin:5% auto;
   }
   fieldset{
     padding:10px;
