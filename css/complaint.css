@@ -111,6 +111,10 @@ body form {
     margin: 5% auto;
 
   }
+
+  form {
+      margin: auto;
+  }
   fieldset{
     position: absolute;
     margin: auto;
