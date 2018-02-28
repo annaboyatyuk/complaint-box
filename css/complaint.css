@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Concert+One);
 @import url(https://fonts.googleapis.com/css?family=Advent+Pro:300);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Asset|Nunito:700|Quicksand:300|Seymour+One);
 
 html,body {
   height:100%;
@@ -61,14 +63,13 @@ body form {
 }
 
 /* ----------------------button---------------------- */
-.btn {
-    /* width: 100%; */
+div .btn {
     margin: auto;
-    /* margin-top: 0; */
     background:none;
     -webkit-border-radius: 16;
     -moz-border-radius: 16;
-    border: 10px;
+    border: .1px solid white;
+    border-color: white;
     text-shadow: 0px 2px 0px #666666;
     -webkit-box-shadow: 0px 1px 9px #666666;
     -moz-box-shadow: 0px 1px 9px #666666;
@@ -81,17 +82,14 @@ body form {
     text-decoration: none;
     cursor: pointer;
     position: absolute;
-
     top: 120%;
     left: 35%;
-    
-
   }
   
   .btn:hover {
     background: rgba(137, 240, 47, 0.40);
     text-decoration: none;
-    transition: background-color 2s ease;
+    transition: background-color 4s ease;
   }
 
 /* ------------------------comment box-------------------------------------- */
