@@ -14,11 +14,9 @@ body {
     background: -webkit-linear-gradient(top,  #151414 0%,#887d7d 80%,#d4d6d6 100%); 
     background-attachment: fixed;
 }
-
 header {
     height: 80px;
 }
-
 nav {
     margin: 0px auto;
 }
@@ -30,7 +28,6 @@ header h1 {
     color:rgba(137, 240, 47, 0.89);
     font-family: 'Noto Sans', sans-serif;
 }
-
 header ul li a {
     display: block;
     color: white;
@@ -38,30 +35,24 @@ header ul li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 header ul li a:hover {
     color: rgba(137, 240, 47, 0.89);
 }
-
 .right {
     float: right;
     font-family: 'Noto Sans', sans-serif;
 }
-
 section.section {
     width: 800px;
     margin-top: 200px;
     margin: auto;
 }
-
 section p:first-child {
     margin-top: 20%;
 }
-
 body form {
     margin-top: 5%;
 }
-
 /* ----------------------button---------------------- */
 div .btn {
     margin: auto;
@@ -153,7 +144,6 @@ div .btn {
     margin-bottom:10px;
     font-size:18px;
     color:#fff;
-   /* padding-left:34px;  */
    background:url(https://cdn3.iconfinder.com/data/icons/glypho-free/64/pen-checkbox-32.png) no-repeat left center;
   }
   textarea{

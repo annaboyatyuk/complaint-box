@@ -24,12 +24,10 @@ h1 {
 header {
     height: 80px;
 }
-
 nav {
     margin: 0px auto;
     font-family: 'Noto Sans', sans-serif;
 }
-
 header h1 {
     float: left;
     margin: 20px 40px 30px;
@@ -37,7 +35,6 @@ header h1 {
     color:rgba(137, 240, 47, 0.89);
     font-family: 'Noto Sans', sans-serif;
 }
-
 header ul li a {
     display: block;
     color: white;
@@ -80,10 +77,12 @@ section p {
     left: 22%;
     width: 70%;
     margin: auto;
+
     font-size: 16px;
     font-family: 'Noto Sans', sans-serif;
     color: white;
 }
+
 
 #formsection {
     position: relative;
@@ -97,6 +96,9 @@ section p {
 }
 
 /* #section3 {
+
+#section3 {
+
     position: absolute;
     top: 60%;
     left: 20%;
@@ -130,23 +132,14 @@ section p {
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
     transform: scale(1);  
-  }
 
+  }
+  
 .btn:hover {
     background: rgba(137, 240, 47, 0.40);
     text-decoration: none;
     transition: background-color 4s ease;
-    box-shadow: 0px 0px 150px #000000;
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);   
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-    transform: scale(1.5);
-}
+  }
 .numberPosition #number {
     position: absolute;
     top: 35%;
@@ -197,7 +190,7 @@ input[type=range] {
     perspective: 300;
     transform-origin: 50% 50% 300px;
     perspective-origin: 50% -121%;
-    transform: skew(62deg);
+  transform: skew(62deg);
 }
 
 input[type=range]:focus{
