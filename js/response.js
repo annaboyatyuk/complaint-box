@@ -1,6 +1,6 @@
 'use strict';
 
-//hey
+
 //Render the complaint image by the score and the reason
 function renderComplaintImage(){
   var complaintData = localStorage.getItem('complaintlist');
@@ -30,9 +30,20 @@ function renderComplaintImage(){
 }
 
 renderComplaintImage();
+//render
 
-
-var responseArr = ['I\'m sorry.', 'Wow, that sounds tough.', 'What a challenge.', 'Don\'t let it ruin your day.', 'Lets hope for the best.', 'Tomorrow is a new day!', 'Wow! I can\'t believe it!', 'Ok seriously, this is not ok.', 'That sounds awful.', 'That is just ridiculous.', 'So annoying.'];
+var responseArr = [
+  'I\'m sorry.',
+  'Wow, that sounds tough.',
+  'What a challenge.',
+  'Don\'t let it ruin your day.',
+  'Lets hope for the best.',
+  'Tomorrow is a new day!',
+  'Wow! I can\'t believe it!',
+  'Ok seriously, this is not ok.',
+  'That sounds awful.',
+  'That is just ridiculous.',
+  'So annoying.'];
 
 var responseText = document.getElementById('responseText');
 var showText = document.createElement('p');
