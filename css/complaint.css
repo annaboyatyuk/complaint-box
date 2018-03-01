@@ -83,7 +83,7 @@ div .btn {
     cursor: pointer;
     position: absolute;
     top: 120%;
-    left: 35%;
+    left: 50%;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
     -ms-transition: all 200ms ease-in;
