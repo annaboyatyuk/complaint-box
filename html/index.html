@@ -29,22 +29,25 @@
             you to complain about anything! 
         </p>
     </section>
-    <section id="section2">
-        <p class="scale"> 
-            Please rate your complaint on a scale of 1-10. 1 being its not bothering you too much, but 
-            you want to get it off your chest and 10 being nothing in this world has ever bothered you so much!
-        </p>
-    </section>
-    <form id="complaintform">
-        <label for="range">
-            <input type="range" name="range" id="range" min="1" max="10" step="1" value="5"/>
-         <p id="demo"></p>
-        </label>
-        <section class="numberPosition">
-            <p id="number"></p>
+    
+    <div id="formsection">
+        <section class="section2">
+            <p class="scale"> 
+                Please rate your complaint on a scale of 1-10. 1 being its not bothering you too much, but 
+                you want to get it off your chest and 10 being nothing in this world has ever bothered you so much!
+            </p>
         </section>
-        <button class="btn" type="submit">File a Complaint</button>
-    </form>
+        <form id="complaintform">
+            <label for="range">
+                <input type="range" name="range" id="range" min="1" max="10" step="1" value="5"/>
+            <p id="demo"></p>
+            </label>
+            <section class="numberPosition">
+                <p id="number"></p>
+            </section>
+            <button class="btn" type="submit">File a Complaint</button>
+        </form>
+    </div>
 
 <script src="../js/index.js"></script>
 </body>

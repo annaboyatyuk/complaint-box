@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Asset|Nunito:700|Quicksand:300|Seymour+One);
 
 section {
-  position: absolute;
+  position: fixed;
   top: 45%;
   left: 45%;
   transition: background-color 0.5s ease;
@@ -24,8 +24,8 @@ h1 {
 .btn {
   background:none;
   -webkit-border-radius: 16;
-  border: none;
   -moz-border-radius: 16;
+  border: .1px solid white;
   text-shadow: 0px 2px 0px #666666;
   -webkit-box-shadow: 0px 1px 9px #666666;
   -moz-box-shadow: 0px 1px 9px #666666;
@@ -33,21 +33,38 @@ h1 {
   font-family: 'Advent Pro', sans-serif;
   letter-spacing: 3px;
   color: white;
-  font-size: 20px;
+  font-size: 40px;
   padding: 8px 20px 10px 20px;
   text-decoration: none;
   cursor: pointer;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);  
 }
 
 /* --------------------------------------------------------------- */
 .btn:hover {
-  background: rgba(137, 240, 47, 0.40);
   text-decoration: none;
   transition: background-color 2s ease;
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
 }
 div {
   padding: 40px;
-  font-size: 40px;
+  font-size: 600%;
   font-family: 'Noto Sans', sans-serif;
   letter-spacing: 5px;
   text-align: center;
