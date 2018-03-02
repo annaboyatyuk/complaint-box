@@ -27,7 +27,7 @@ nav {
 header h1 {
     float: left;
     margin: 20px 40px 30px;
-    font-size: 40px;
+    font-size: 380%;
     color:rgba(137, 240, 47, 0.89);
     font-family: 'Noto Sans', sans-serif;
 }
@@ -38,11 +38,20 @@ header ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    font-size: 130%;
 }
 
 header ul li a:hover {
     color: rgba(137, 240, 47, 0.89);
+}
+
+.blink {
+    animation: blink 1s linear infinite;
+}
+@keyframes blink {
+    0%{opacity: 2;}
+    50%{opacity: .1;}
+    100%{opacity: 1;}
 }
 
 .right {
@@ -50,16 +59,19 @@ header ul li a:hover {
 }
 
 body div {
-    margin-top: 10px;
+    margin-top: 5%;
 }
 
 body div img {
-    width: 40%;
+    width: 37%;
     margin: auto;
-    margin-top: 0;
 }
 
-body div p {
+#responseText {
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
     font-size: 50px;
+    text-shadow: 0 0 20px rgb(248, 245, 245);
 }
 

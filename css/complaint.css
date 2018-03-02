@@ -26,7 +26,7 @@ nav {
 header h1 {
     float: left;
     margin: 20px 40px 30px;
-    font-size: 40px;
+    font-size: 380%;
     color:rgba(137, 240, 47, 0.89);
     font-family: 'Noto Sans', sans-serif;
 }
@@ -37,6 +37,7 @@ header ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 130%;
 }
 
 header ul li a:hover {
@@ -53,7 +54,7 @@ header ul li a:hover {
 
 
 body form {
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 *{
@@ -66,8 +67,8 @@ body form {
 }
 
 .wrapper {
-    width:600px;
-    margin: 5% auto;
+    width:70%;
+    margin: 15% auto;
 }
 
 form {
@@ -75,12 +76,9 @@ form {
 }
 
 fieldset {
-    position: absolute;
-    margin: auto;
-    margin-top: 0;
     padding:10px;
     background:rgba(137, 240, 47, 0.699);
-    width: 50%;
+    width: 100%;
 }
 
 .form_grp {
@@ -91,10 +89,9 @@ fieldset {
 
 label {
     width:100%;
-    height:32px;
-    line-height:32px;
+    height:38px;
+    line-height:38px;
     display:block;
-    /* margin-bottom:10px; */
     font-size:18px;
     color:#fff;
    background:url(https://cdn3.iconfinder.com/data/icons/glypho-free/64/pen-checkbox-32.png) no-repeat left center;
@@ -102,7 +99,7 @@ label {
 
 textarea {
     width:100%;
-    height:100px;
+    height:200px;
     padding:10px;
     border:1px solid #eee;
     resize:none;
@@ -127,9 +124,8 @@ div .btn {
     padding: 8px 20px 10px 20px;
     text-decoration: none;
     cursor: pointer;
-    position: absolute;
-    top: 120%;
-    left: 50%;
+    position: relative;
+    margin: 30px auto;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
     -ms-transition: all 200ms ease-in;
@@ -152,6 +148,5 @@ div .btn {
     -ms-transform: scale(1.5);   
     -moz-transition: all 300ms ease-in;
     -moz-transform: scale(1.5);
-    /* transition: all 200ms ease-in; */
     transform: scale(1.5);
 }
