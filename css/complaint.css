@@ -26,7 +26,7 @@ nav {
 header h1 {
     float: left;
     margin: 20px 40px 30px;
-    font-size: 40px;
+    font-size: 380%;
     color:rgba(137, 240, 47, 0.89);
     font-family: 'Noto Sans', sans-serif;
 }
@@ -37,6 +37,7 @@ header ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 130%;
 }
 
 header ul li a:hover {
@@ -67,7 +68,7 @@ body form {
 
 .wrapper {
     width:70%;
-    margin: 5% auto;
+    margin: 15% auto;
 }
 
 form {
@@ -75,9 +76,6 @@ form {
 }
 
 fieldset {
-    /* position: absolute; */
-    /* margin: auto; */
-    /* margin-top: 0; */
     padding:10px;
     background:rgba(137, 240, 47, 0.699);
     width: 100%;

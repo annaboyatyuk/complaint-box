@@ -7,11 +7,11 @@ html,body{
 }
 
 body{
-text-align:center; 
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#151414), color-stop(80%,#887d7d), color-stop(100%,#d4d6d6)); 
-background: -webkit-linear-gradient(top, #151414 0%,#887d7d 80%,#d4d6d6 100%);
-font-family: 'Noto Sans', sans-serif; 
-background-attachment: fixed;
+    text-align:center; 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#151414), color-stop(80%,#887d7d), color-stop(100%,#d4d6d6)); 
+    background: -webkit-linear-gradient(top, #151414 0%,#887d7d 80%,#d4d6d6 100%);
+    font-family: 'Noto Sans', sans-serif; 
+    background-attachment: fixed;
 }
 
 h1 {
@@ -22,25 +22,29 @@ h1 {
 }
 
 header {
-    height: 80px;
+    height: 120px;
 }
+
 nav {
     margin: 0px auto;
     font-family: 'Noto Sans', sans-serif;
 }
+
 header h1 {
     float: left;
     margin: 20px 40px 30px;
-    font-size: 40px;
+    font-size: 380%;
     color:rgba(137, 240, 47, 0.89);
     font-family: 'Noto Sans', sans-serif;
 }
+
 header ul li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 130%;
 }
 
 header ul li a:hover {
