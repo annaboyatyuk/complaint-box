@@ -42,22 +42,6 @@ header ul li a {
     font-size: 130%;
 }
 
-#name {
-    font-size: 24px;
-    /*color: rgba(137, 240, 47, 0.89);*/
-    color: #d0ecf7;
-    text-shadow: 2px 2px black;
-}
-tr th {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 14px;
-    padding:20px;
-}
-td{
-    text-align: justify;
-    padding: 20px;
-
-}
 header ul li a:hover {
     color:#d0ecf7;
     /*color: rgba(137, 240, 47, 0.89);*/
@@ -68,6 +52,29 @@ header ul li a:hover {
     float: right;
     font-family: 'Noto Sans', sans-serif;
 }
+
+main {
+    width: 95%;
+    margin: 5% auto;
+}
+
+#name {
+    font-size: 24px;
+    /*color: rgba(137, 240, 47, 0.89);*/
+    color: #d0ecf7;
+    text-shadow: 2px 2px black;
+}
+tr th {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+td{
+    text-align: justify;
+    padding: 20px;
+    width: 33.33%
+}
+
 
 img {
     border-radius: 50%;
