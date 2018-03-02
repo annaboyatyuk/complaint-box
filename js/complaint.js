@@ -1,6 +1,6 @@
 'use strict';
 
-var complaintReason = ['annoy', 'sick', 'traffic', 'weather', 'work'];
+var complaintReason = ['annoy', 'sick', 'traffic', 'weather', 'work', 'snow', 'that', 'brother', 'wish', 'sister', 'sibling', 'and', 'job'];
 function inputComplaintDetails(event){
 
   event.preventDefault();
