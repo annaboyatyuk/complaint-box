@@ -74,7 +74,7 @@ section p {
 
 .section2 {
     position: relative;
-    top: 17%;
+    top: 10%;
     margin: auto;
     font-size: 16px;
     font-family: 'Noto Sans', sans-serif;
@@ -84,49 +84,17 @@ section p {
 #formsection {
     position: relative;
     top: 5%;
-    left: 22%;
-    height: 60%;
+    left: 23%;
+    height: 100%;
     width: 70%;
     padding: 15px;
     margin: 50px;
-}
-
-.btn {
-    background: none;
-    -webkit-border-radius: 16;
-    -moz-border-radius: 16;
-    text-shadow: 0px 2px 0px #666666;
-    -webkit-box-shadow: 0px 1px 9px #666666;
-    -moz-box-shadow: 0px 1px 9px #666666;
-    box-shadow: 0px 14px 9px #666666;
-    font-family: 'Advent Pro', sans-serif;
-    letter-spacing: 3px;
-    color: white;
-    font-size: 20px;
-    padding: 8px 20px 10px 20px;
-    text-decoration: none;
-    cursor: pointer;
-    position: relative;
-    margin-top: 40%;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1); 
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1); 
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);  
-}
-  
-.btn:hover {
-    background: rgba(137, 240, 47, 0.40);
-    text-decoration: none;
-    transition: background-color 4s ease;
+    border-left: 1px solid white;
 }
 
 .numberPosition #number {
     position: absolute;
-    top: 35%;
+    top: 30%;
     margin: auto;
     font-size: 30px;
     font-weight: bold;
@@ -212,4 +180,37 @@ input[type=range]:after {
     210px 1px 0 rgb(235, 235, 235),
     240px 1px 0 rgb(235, 235, 235),
     270px 1px 0 rgb(235, 235, 235);
+}
+
+.btn {
+    background: none;
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    text-shadow: 0px 2px 0px #666666;
+    -webkit-box-shadow: 0px 1px 9px #666666;
+    -moz-box-shadow: 0px 1px 9px #666666;
+    box-shadow: 0px 14px 9px #666666;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    margin-top: 40%;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+  
+.btn:hover {
+    background: rgba(137, 240, 47, 0.40);
+    text-decoration: none;
+    transition: background-color 4s ease;
 }
