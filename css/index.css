@@ -147,10 +147,10 @@ input[type=range] {
     -webkit-appearance: none;
     background-color: transparent;
     width: 300px;
-    height: 38px;
-    padding-top:10px;
+    height: 40px;
+    padding-top: 8px;
     overflow:hidden;
-    box-shadow: -5px 10px 16px 4px #443f3f94;
+    box-shadow: -5px 15px 16px 4px #443f3f94;
 }
 
 input[type=range]:focus{
