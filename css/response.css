@@ -45,21 +45,35 @@ header ul li a:hover {
     color: rgba(137, 240, 47, 0.89);
 }
 
+.blink {
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0%{opacity: 2;}
+    50%{opacity: .1;}
+    100%{opacity: 1;}
+}
+
 .right {
     float: right;
 }
 
 body div {
-    margin-top: 10px;
+    margin-top: 5%;
 }
 
 body div img {
-    width: 40%;
+    width: 37%;
     margin: auto;
-    margin-top: 0;
+    /* margin-top: 0; */
 }
 
-body div p {
+#responseText {
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
     font-size: 50px;
+    text-shadow: 0 0 20px rgb(248, 245, 245);
 }
 
