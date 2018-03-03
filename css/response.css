@@ -47,6 +47,7 @@ header ul li a:hover {
 
 .blink {
     animation: blink 1s linear infinite;
+    font-size: 160%;
 }
 @keyframes blink {
     0%{opacity: 2;}
@@ -56,6 +57,7 @@ header ul li a:hover {
 
 .right {
     float: right;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 body div {
