@@ -48,6 +48,7 @@ header ul li a:hover {
 .blink {
     animation: blink 1s linear infinite;
     font-size: 160%;
+    color: rgba(137, 240, 47, 0.89); 
 }
 @keyframes blink {
     0%{opacity: 2;}
